@@ -1,2 +1,2 @@
-include ':example', ':latte-annotations', ':latte-compiler', ':latte-core', ':latte-ec'
+include ':app'
 rootProject.name='FestEC'
