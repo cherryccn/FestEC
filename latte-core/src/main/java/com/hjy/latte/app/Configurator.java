@@ -41,6 +41,9 @@ public class Configurator {
         return this;
     }
 
+    /**
+     * 初始化字体图标库
+     */
     private void initIcons() {
         if (ICONS.size() > 0) {
             final Iconify.IconifyInitializer initializer = Iconify.with(ICONS.get(0));
